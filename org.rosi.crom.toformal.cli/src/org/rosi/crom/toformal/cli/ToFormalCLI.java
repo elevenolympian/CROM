@@ -19,6 +19,7 @@ import org.rosi.crom.toformal.generator.FormalCROMGenerator;
 import org.rosi.crom.toformal.generator.OntologyGenerator;
 import org.rosi.crom.toformal.generator.RSQLGenerator;
 import org.rosi.crom.toformal.generator.ScrollCodeGenerator;
+import org.rosi.crom.toformal.generator.SolidityCodeGenerator;
 
 import crom_l1_composed.Crom_l1_composedPackage;
 import crom_l1_composed.Model;
@@ -40,7 +41,7 @@ public class ToFormalCLI {
 			+ " List of CROM (*.crom) files to process\n\n"
 			+ "VERSION\n"+Version;
 
-	public static final AbstractCROMGenerator[] generators = {new OntologyGenerator(),new FormalCROMGenerator(),new RSQLGenerator(),new ScrollCodeGenerator()};
+	public static final AbstractCROMGenerator[] generators = {new OntologyGenerator(),new FormalCROMGenerator(),new RSQLGenerator(),new ScrollCodeGenerator(), new SolidityCodeGenerator()};
 
 	/**
 	 * @param args
