@@ -64,6 +64,20 @@
                tooltip="Generate the corresponding RSQL Data Definition">
          </action>
       </objectContribution>
+      <objectContribution
+            id="org.rosi.crom.toformal.contribution3"
+            nameFilter="*.crom"
+            objectClass="org.eclipse.core.resources.IFile">
+         <action
+               class="org.rosi.crom.toformal.popup.actions.GenerateSolidityCodeAction"
+               enablesFor="+"
+               id="org.rosi.crom.toformal.GenerateSolidityCodeAction"
+               label="Solidity Definition"
+               menubarPath="org.rosi.crom.metamodel.menu/group1"
+               tooltip="Generate the corresponding Solidity Definition">
+         </action>
+      </objectContribution>
+      
    </extension>
 
 </plugin>

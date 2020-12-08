@@ -11,7 +11,7 @@ import org.eclipse.jface.dialogs.MessageDialog
 class SolidityCodeGenerator extends AbstractCROMGenerator{
 	
 	public new() {
-		super("solidity");
+		super("sol");
 	}
 //	def static void main(String[] args) {
 //		
